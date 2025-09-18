@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.bg-img {
+    background-image: url(assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 650px;
+    width: 100%;
+    z-index: -1;
+    filter: brightness(0.6) saturate(0.8);
+}
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    flex: auto;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.logo-img {
+    height: 30px;
+}
+
+.buttons {
+    background-color: transparent;
+}
+
+.button1 {
+    background-color: white;
+    margin-right: 30px;
+    padding: 7px 3px;
+    border-radius: 5px;
+    color: black;
+}
+
+.button2 {
+    background-color: transparent;
+    padding: 7px 3px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.above-bg-items {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    top: 150px;
+    left: 18%;
+    color: yellowgreen;
+}
+
+.enjoy-big-movies {
+    background-color: transparent;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.join-today {
+    background-color: transparent;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.ready-to-watch {
+    background-color: transparent;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.signup-email {
+    background-color: transparent;
+    font-size: 25px;
+}
+
+.email-input {
+    background-color: white;
+    color: black;
+    padding: 16px 101px 8px 14px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.get-started-button {
+    padding: 3px 24px;
+    color: white;
+    background-color: red;
+    font-weight: 400;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.enjoy-on-your-tv{
+    background-color: transparent;
+    position: absolute;
+    left: 20%;
+    margin-top: 90px;
+}
+.content-of-enjoy-on-tv{
+    height: 300px;
+    width: 40%;
+    text-align: center;
+}
+
+.enjoy-on-tv-heading{
+    font-size: 50px;
+}
+
+.watch-on-smart-tv{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+.tv1{
+    background-color: transparent;
+    position: absolute;
+    left: 50%;
+    
+}
+
+.tv1-vid{
+    position: absolute;
+    top: 99px;
+  left: 84px;
+  height: 54%;
+  
+}
+.stranger-thhing{
+    position: absolute;
+    top: 150%;
+}
