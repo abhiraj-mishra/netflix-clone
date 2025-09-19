@@ -154,7 +154,28 @@
   height: 54%;
   
 }
-.stranger-thhing{
+.stranger-thing{
     position: absolute;
     top: 150%;
+    left: 10%;
+}
+
+.download-content{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.downloads-words{
+    background-color: transparent;
+    position: absolute;
+    top: 175%;
+    left: 50%;
+    width: 40%;
+}
+.stranger-title{
+    font-size: 50px;
+}
+.stranger-subtitle{
+    font-size: 25px;
+    font-weight: 200;
 }
