@@ -47,6 +47,7 @@
     padding: 7px 3px;
     border-radius: 5px;
     color: black;
+    cursor: pointer;
 }
 
 .button2 {
@@ -55,6 +56,7 @@
     background-color: rgb(255, 0, 0);
     color: rgb(255, 255, 255);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .above-bg-items {
@@ -109,6 +111,7 @@
     font-size: 25px;
     border: 1px solid white;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .seperation {
@@ -118,64 +121,69 @@
     z-index: 20;
 }
 
-.enjoy-on-your-tv{
+.enjoy-on-your-tv {
     background-color: transparent;
     position: absolute;
     left: 20%;
     margin-top: 90px;
 }
-.content-of-enjoy-on-tv{
+
+.content-of-enjoy-on-tv {
     height: 300px;
     width: 40%;
     text-align: center;
 }
 
-.enjoy-on-tv-heading{
+.enjoy-on-tv-heading {
     font-size: 50px;
 }
 
-.watch-on-smart-tv{
+.watch-on-smart-tv {
     font-size: 25px;
     font-weight: 200;
     margin-top: 100px;
 }
 
-.tv1{
+.tv1 {
     background-color: transparent;
     position: absolute;
     left: 50%;
-    
+
 }
 
-.tv1-vid{
+.tv1-vid {
     position: absolute;
     top: 99px;
-  left: 84px;
-  height: 54%;
-  
+    left: 84px;
+    height: 54%;
+
 }
-.stranger-thing{
+
+.stranger-thing {
     position: absolute;
     top: 150%;
     left: 10%;
 }
 
-.download-content{
+.download-content {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
 }
-.downloads-words{
+
+.downloads-words {
     background-color: transparent;
     position: absolute;
     top: 175%;
     left: 50%;
     width: 40%;
 }
-.stranger-title{
+
+.stranger-title {
     font-size: 50px;
 }
-.stranger-subtitle{
+
+.stranger-subtitle {
     font-size: 25px;
     font-weight: 200;
 }
